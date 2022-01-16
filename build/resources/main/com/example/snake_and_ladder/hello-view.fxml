@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snake_and_ladder.HelloController">
+   <children>
+      <ImageView fitHeight="758.0" fitWidth="570.0">
+         <image>
+            <Image url="@../../../images/img_5.png" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#onExitButtonClick" opacity="0.0" prefHeight="46.0" prefWidth="35.0" text=" EXIT" />
+      <Button layoutX="220.0" layoutY="545.0" mnemonicParsing="false" onAction="#onCredisButtonClick" opacity="0.0" prefHeight="51.0" prefWidth="136.0" text="credits" textFill="#00f026" />
+      <Button fx:id="botbutton" layoutX="219.0" layoutY="459.0" mnemonicParsing="false" opacity="0.0" prefHeight="45.0" prefWidth="142.0" text="Button" />
+      <ImageView fitHeight="107.0" fitWidth="136.0" layoutX="1.0" layoutY="643.0">
+         <image>
+            <Image url="@../../../images/giphy.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="109.0" layoutX="447.0" layoutY="655.0">
+         <image>
+            <Image url="@../../../images/Rteus.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="Botbutton" layoutX="220.0" layoutY="366.0" mnemonicParsing="false" onAction="#onBotButtonClick" opacity="0.0" prefHeight="46.0" prefWidth="136.0" text="BOT PLAY" />
+      <Button id="next1" layoutX="219.0" layoutY="454.0" mnemonicParsing="false" onAction="#onHelloButtonClick" opacity="0.0" prefHeight="51.0" prefWidth="142.0" text="Start Game" textFill="#ff2121" />
+   </children>
+</AnchorPane>
